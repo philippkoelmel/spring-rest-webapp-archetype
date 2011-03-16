@@ -7,14 +7,15 @@
 	<packaging>war</packaging>
 	<name>Spring-REST-WebApp-Skeleton</name>
 	<description>No-Rooish app for web-services</description>
-	<url>https://github.com/Hechtenheld/Java-Spring-REST-App-Skeleton</url>
+	<url>https://github.com/Hechtenheld/spring-rest-webapp-archetype</url>
 	<issueManagement>
 		<system>github</system>
-		<url>https://github.com/Hechtenheld/Java-Spring-REST-App-Skeleton/issues</url>
+		<url>https://github.com/Hechtenheld/spring-rest-webapp-archetype/issues</url>
 	</issueManagement>
 	<scm>
-		<connection>git@github.com:Hechtenheld/Java-Spring-REST-App-Skeleton.git</connection>
-		<url>https://github.com/Hechtenheld/Java-Spring-REST-App-Skeleton</url>
+		<connection>scm:git:ssh://github.com/Hechtenheld/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/Hechtenheld/${project.artifactId}.git</developerConnection>
+		<url>http://github.com/Hechtenheld/${project.artifactId}</url>
 	</scm>
 	<organization>
 		<name>Philipp Kölmel</name>
