@@ -9,6 +9,17 @@
 
   <name>spring-rest-webapp-archetype</name>
 
+	<distributionManagement>
+		<repository>
+			<id>repo</id>
+			<url>https://github.com/Hechtenheld/maven-repo/raw/master/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshot-repo</id>
+			<url>https://github.com/Hechtenheld/maven-repo/raw/master/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
   <build>
     <extensions>
       <extension>
