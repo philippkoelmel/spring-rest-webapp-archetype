@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${packageInPathFormat}.skull;
+package ${package}.skull;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -18,7 +18,10 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.web.servlet.HandlerAdapter;
 import org.springframework.web.servlet.ModelAndView;
 
-import ${packageInPathFormat}.SkullDBFixture;
+import ${package}.SkullDBFixture;
+import ${package}.skull.Skull;
+import ${package}.skull.SkullController;
+
 
 /**
  * Test the SkullController

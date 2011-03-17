@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${packageInPathFormat}.skull;
+package ${package}.skull;
 
 import static org.junit.Assert.*;
 
@@ -11,8 +11,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import ${packageInPathFormat}.SkullDBFixture;
-import ${packageInPathFormat}.exception.ResourceNotFound;
+import ${package}.SkullDBFixture;
+import ${package}.exception.ResourceNotFound;
+import ${package}.skull.Skull;
+import ${package}.skull.SkullDAO;
+
 
 /**
  * Tests the SkullDAO

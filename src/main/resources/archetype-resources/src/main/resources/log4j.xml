@@ -14,7 +14,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="${packageInPathFormat}">
+	<logger name="skeleton">
 		<level value="debug" />
 	</logger>
 	

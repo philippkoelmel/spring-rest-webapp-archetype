@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${packageInPathFormat}.xml;
+package ${package}.xml;
 
 import static org.junit.Assert.assertEquals;
 
@@ -18,7 +18,8 @@ import org.springframework.oxm.XmlMappingException;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import ${packageInPathFormat}.skull.Skull;
+import ${package}.skull.Skull;
+
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("/test-context.xml")

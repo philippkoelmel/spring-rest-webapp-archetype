@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${packageInPathFormat}.skull;
+package ${package}.skull;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -10,7 +10,8 @@ import javax.persistence.PersistenceContextType;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import ${packageInPathFormat}.exception.ResourceNotFound;
+import ${package}.exception.ResourceNotFound;
+
 
 /**
  * The data access object for all skulls
